@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration <Form></Form>
+    </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(229, 225, 225);
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1340px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+            bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .form-group button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 125px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            position: relative;
+            top: 100%;
+            left: 37%;
+        }
+
+        .Address {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+
+        }
+
+        .form-group button:static {
+
+            
+            background-color: #45a049;
+            text-align: center;
+            position: relative;
+            top: 50%;
+            left: 50%;
+        }
+
+        .add1 {
+            display: block;
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .upimg label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .upimg {
+            margin-bottom: 20px;
+        }
+
+        .upimg input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Student Registration <Form></Form>
+        </h2>
+        <form action="#">
+            <div class="form-group">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your e-mail">
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone" name="phone" required placeholder="Enter you phone number">
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required placeholder="Enter your D.O.B">
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Attack helicopter</option>
+                    <option>Military tank</option>
+                    <option>Camera</option>wsaZA`Q1
+                    <option>Non Binary Penguin</option>
+                    <option>Simantic error</option>
+                    <option>Sicklecell</option>
+
+                </select>
+            </div>
+            <div class="Address">
+                <label for="address">Address : </label>
+                <input class="add1" type="text" required placeholder="Enter your address">
+            </div>
+            <br>
+            <div class="upimg">
+                <label for="uploadimg">Upload Image</label>
+                <input type="file" name="imgfile" id="imgfile">
+            </div>
+
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>
